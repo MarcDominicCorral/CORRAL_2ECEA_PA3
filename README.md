@@ -57,7 +57,7 @@ cars.loc[cars['Model'] == 'Mazda RX4']
 cars.loc[(cars['Model'] == 'Camaro Z28'), ['cyl']]
 
 M = ['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']
-cars.loc[cars['Model'].isim(M),['Model', 'cyl', 'gear']]
+cars.loc[cars['Model'].isin(M),['Model', 'cyl', 'gear']]
 ```
 
 # Outputs:
@@ -78,5 +78,5 @@ cars.loc[cars['Model'] == 'Mazda RX4'] #This code locates "Mazda RX4" from the "
 cars.loc[(cars['Model'] == 'Camaro Z28'), ['cyl']] #This code locates "Camaro Z28" from the "Model" column and returns only the cylinder count for the specific model
 
 M = ['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic'] #This shows the list of the models
-cars.loc[cars['Model'].isim(M),['Model', 'cyl', 'gear']] #This code locates the "Model" that can be found in the list (M) using the code "isin()", selects multiple column using the code "['Model', 'cyl', 'gear']" and returns the specified columns for matching models in the list (M)
+cars.loc[cars['Model'].isin(M),['Model', 'cyl', 'gear']] #This code locates the "Model" that can be found in the list (M) using the code "isin()", selects multiple column using the code "['Model', 'cyl', 'gear']" and returns the specified columns for matching models in the list (M)
 ```
