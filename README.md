@@ -50,7 +50,7 @@ import pandas as pd
 cars = pd.read_csv('cars.csv')
 cars
 
-cars.loc[1:10:2,'Model':"hp"]
+cars.loc[1:10:2,'Model':'hp']
 
 cars.loc[cars['Model'] == 'Mazda RX4']
 
