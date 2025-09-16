@@ -61,7 +61,7 @@ cars.loc[cars['Model'].isim(M),['Model', 'cyl', 'gear']]
 ```
 
 # Outputs:
-<img width="766" height="446" alt="image" src="https://github.com/user-attachments/assets/07247019-0da6-4241-a12e-6dbecfb63d73" />
+<img width="825" height="454" alt="image" src="https://github.com/user-attachments/assets/6e34cccf-3959-463e-ab57-e6799bb27d71" />
 <img width="781" height="429" alt="image" src="https://github.com/user-attachments/assets/67d61436-e670-43a7-88fd-d6ee67daa0b8" />
 
 # Code Explanation:
