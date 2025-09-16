@@ -71,7 +71,7 @@ import pandas as pd #This imports pandas into the Python code
 cars = pd.read_csv('cars.csv') #pd.read is a python code that reads the file "cars.csv" into the code
 cars
 
-cars.loc[1:10:2,'Model':"hp"] #This particular code is used to get the first five rows with odd number columns. "loc[]" is the label- based indexing, "1:10:2" used to select the odd-numbered columns and the "'Model':'hp'" is used to get the first 5 rows
+cars.loc[1:10:2,'Model':'hp'] #This particular code is used to get the first five rows with odd number columns. "loc[]" is the label- based indexing, "1:10:2" used to select the odd-numbered columns and the "'Model':'hp'" is used to get the first 5 rows
 
 cars.loc[cars['Model'] == 'Mazda RX4'] #This code locates "Mazda RX4" from the "Model" column and return/display all rows where "Model" column is equals to "Mazda RX4" 
 
